@@ -1,0 +1,20 @@
+<h1>Show Data</h1>
+
+
+
+<p> 
+ID: <%= @article.id %>
+</p>
+
+
+<p> 
+Title: <%= @article.title %>
+</p>
+
+
+<p> 
+Description: <%= @article.description %>
+</p>
+
+<%= link_to "Edit this articles", edit_article_path(@article) %>
+<%= link_to "Bact to articles", articles_path %>
